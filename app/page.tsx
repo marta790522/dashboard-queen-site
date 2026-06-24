@@ -58,7 +58,7 @@ const projects = [
 
 const stats = [
   ['10+', 'Years in Salesforce & RevOps'],
-  ['100+', 'Dashboards and reports built'],
+  ['1000+', 'Dashboards and reports built'],
   ['30%', 'RFP win rate improvement'],
   ['50%', 'CSM adoption improvement'],
 ];
@@ -159,7 +159,7 @@ export default function Home() {
 <section className="section" id="recommendations">
   <div className="sectionHeader">
     <p className="eyebrow">Recommendations</p>
-    <h2>What people say about working with me</h2>
+    <h2>Recommendations from managers and executives</h2>
   </div>
 
   <div className="testimonialGrid">
@@ -169,7 +169,7 @@ export default function Home() {
   "Her knowledge of Salesforce, data management, and sales enablement has been a tremendous value to our company. Marta is always ready to help and consistently delivers with a smile."
 </p>
 <strong>Brent Frazier</strong>
-<span>Director of Sales Operations, RES</span>
+<span>Director of Sales Operations, Runbeck ELection Services</span>
     </div>
 
     <div className="testimonialCard">
@@ -196,7 +196,7 @@ export default function Home() {
       href="https://www.linkedin.com/in/marta-s-revops"
       target="_blank"
     >
-      View All LinkedIn Recommendations
+      See All LinkedIn Recommendations
     </a>
   </div>
 </section>
