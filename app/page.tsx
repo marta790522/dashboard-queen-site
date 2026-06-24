@@ -187,7 +187,7 @@ export default function Home() {
         "One of the strongest Salesforce and RevOps professionals I've
         worked with."
       </p>
-      <<strong>Matt Hadreas</strong>
+      <strong>Matt Hadreas</strong>
 <span>RevOps & GTM Leader</span>
     </div>
 
