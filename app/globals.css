@@ -41,7 +41,7 @@ p { color: var(--muted); line-height: 1.65; font-size: 17px; }
 .stat { background: #fffaf7; padding: 34px 6vw; }
 .stat strong { display: block; color: var(--pink-dark); font-size: 40px; letter-spacing: -.05em; }
 .stat span { color: var(--muted); font-weight: 700; }
-.section { padding: 96px 6vw; max-width: 1320px; margin: 0 auto; }
+.section { padding: 72px 6vw; max-width: 1320px; margin: 0 auto; }
 .sectionHeader { max-width: 780px; margin-bottom: 44px; }
 .cards { display: grid; gap: 22px; }
 .four { grid-template-columns: repeat(4, 1fr); }
