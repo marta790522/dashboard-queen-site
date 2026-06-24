@@ -203,7 +203,7 @@ My goal is simple: build systems that people actually want to use and that leade
 
       <section className="contact" id="contact">
         <p className="eyebrow">Ready?</p>
-        <h2>Let’s fix your Salesforce together.</h2>
+        <h2>Book a Free Salesforce Review</h2>
         <p>Need help with Salesforce administration, automation, reporting, or RevOps process design?</p>
         <div className="contactActions">
           <a className="button primary" href="mailto:marta@fancymissy.com">Email Marta</a>
