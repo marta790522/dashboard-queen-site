@@ -178,8 +178,8 @@ export default function Home() {
         "She quickly understands business requirements and translates them
         into practical solutions."
       </p>
-      <strong>Matt Hadreas</strong>
-<span>RevOps & GTM Leader</span>
+      <strong>Ashish Nagar</strong>
+<span>Founder & CEO</span>
     </div>
 
     <div className="testimonialCard">
@@ -187,8 +187,8 @@ export default function Home() {
         "One of the strongest Salesforce and RevOps professionals I've
         worked with."
       </p>
-      <strong>Matt Hadreas
-RevOps & GTM Leader</strong>
+      <<strong>Matt Hadreas</strong>
+<span>RevOps & GTM Leader</span>
     </div>
 
   </div>
