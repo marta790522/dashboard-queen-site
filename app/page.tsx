@@ -203,7 +203,7 @@ export default function Home() {
       <section className="section split" id="about">
         <div>
           <p className="eyebrow">Meet Marta</p>
-          <h2>Salesforce Admin. RevOps partner. Dashboard Queen.</h2>
+          <h2>Salesforce Administrator. RevOps partner. Dashboard Queen.</h2>
 <p>
 Most companies don't need more Salesforce.
 </p>
@@ -226,10 +226,20 @@ My goal is simple: build systems that people actually want to use and that leade
 </p>
         </div>
         <div className="aboutBox">
-          <ShieldCheck size={34}/>
-          <h3>Best fit</h3>
-          <p>Growing teams that need Salesforce support, better reporting, process cleanup, and practical RevOps execution without hiring a full-time internal admin team.</p>
-        </div>
+  <ShieldCheck size={34}/>
+  <h3>Best fit</h3>
+
+  <p>
+    Growing teams that need Salesforce support, better reporting,
+    process cleanup, and practical RevOps execution without hiring a
+    full-time internal admin team.
+  </p>
+
+  <p>
+    <strong>Salesforce Certified Administrator</strong><br />
+    10+ years of Salesforce and RevOps experience
+  </p>
+</div>
       </section>
 
       <section className="section process">
