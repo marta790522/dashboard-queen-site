@@ -99,10 +99,15 @@ export default function Home() {
           </div>
 
           <div className="queenCard">
-            <div className="avatarPlaceholder">
-              <Crown size={54}/>
-              <span>Dashboard Queen graphic</span>
-            </div>
+            <img
+  src="/dashboard-queen-hero.png"
+  alt="Marta Szymanska - Dashboard Queen"
+  style={{
+    width: "100%",
+    borderRadius: "24px",
+    display: "block"
+  }}
+/>
             <p className="quote">“Technology should make work easier. If your team needs three spreadsheets and two meetings to understand Salesforce, the system isn’t working.”</p>
           </div>
         </div>
