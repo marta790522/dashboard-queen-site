@@ -87,8 +87,8 @@ export default function Home() {
             <p className="eyebrow"><Sparkles size={16}/> Salesforce & RevOps Consulting</p>
             <h1>Too many CRMs create work instead of supporting it.</h1>
             <p className="heroText">
-              I help growing companies clean up Salesforce, automate manual processes, improve reporting, and build CRM systems that people actually use.
-            </p>
+  I help growing companies turn Salesforce into a system that supports revenue growth, operational efficiency, and better decisions.
+</p>
             <div className="heroActions">
               <a className="button primary" href="#contact">Let’s Fix Your Salesforce <ArrowRight size={18}/></a>
               <a className="button secondary" href="#projects">View Projects</a>
@@ -107,8 +107,17 @@ export default function Home() {
   display: "block"
 }}
 />
-            <p className="quote">“Technology should make work easier. If your team needs three spreadsheets and two meetings to understand Salesforce, the system isn’t working.”</p>
-          </div>
+            <div
+  style={{
+    padding: "20px",
+    fontSize: "18px",
+    lineHeight: "1.8"
+  }}
+>
+  <div>✓ 10+ Years Salesforce & RevOps</div>
+  <div>✓ +30% RFP Win Rate Improvement</div>
+  <div>✓ +50% CSM Adoption Increase</div>
+</div>
         </div>
       </section>
 
