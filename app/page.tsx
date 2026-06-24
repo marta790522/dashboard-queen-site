@@ -68,7 +68,15 @@ export default function Home() {
     <main>
       <section className="hero" id="home">
         <nav className="nav">
-          <div className="brand"><Crown size={24} /> Dashboard Queen</div>
+          <div className="brand">
+  <Crown size={24} />
+  <div>
+    <div>Dashboard Queen</div>
+    <div style={{ fontSize: '12px', opacity: '0.7' }}>
+      by Fancy Missy
+    </div>
+  </div>
+</div>
           <div className="navLinks">
             <a href="#services">Services</a>
             <a href="#projects">Projects</a>
@@ -79,7 +87,7 @@ export default function Home() {
 
         <div className="heroGrid">
           <div>
-            <p className="eyebrow"><Sparkles size={16}/> Salesforce & RevOps Consulting</p>
+            <p className="eyebrow"><Sparkles size={16}/> Dashboard Queen by Fancy Missy</p>
             <h1>Your Salesforce shouldn’t require a detective.</h1>
             <p className="heroText">
               I help growing companies clean up Salesforce, automate manual processes, improve reporting, and build CRM systems that people actually use.
@@ -150,12 +158,26 @@ export default function Home() {
         <div>
           <p className="eyebrow">Meet Marta</p>
           <h2>Salesforce Admin. RevOps partner. Dashboard Queen.</h2>
-          <p>
-            I’m Marta Szymanska, a Salesforce Administrator and Revenue Operations professional with over a decade of experience helping companies improve processes, reporting, automation, and CRM adoption.
-          </p>
-          <p>
-            I’ve worked with SaaS companies, manufacturing organizations, election technology providers, educational institutions, and financial services firms. My work is simple: make Salesforce useful, reliable, and easier for teams to use.
-          </p>
+<p>
+Most companies don't need more Salesforce.
+</p>
+
+<p>
+They need Salesforce that actually helps people do their jobs.
+Too many CRM systems become a collection of fields, reports, and processes that create work instead of supporting it.
+</p>
+
+<p>
+That's where I come in.
+</p>
+
+<p>
+For more than 10 years, I've helped sales, marketing, customer success, and leadership teams simplify processes, improve reporting, automate repetitive work, and increase CRM adoption.
+</p>
+
+<p>
+My goal is simple: build systems that people actually want to use and that leaders can trust when making decisions.
+</p>
         </div>
         <div className="aboutBox">
           <ShieldCheck size={34}/>
@@ -181,7 +203,7 @@ export default function Home() {
         <h2>Let’s fix your Salesforce together.</h2>
         <p>Need help with Salesforce administration, automation, reporting, or RevOps process design?</p>
         <div className="contactActions">
-          <a className="button primary" href="mailto:hello@dashboardqueen.com">Email Marta</a>
+          <a className="button primary" href="mailto:marta@fancymissy.com">Email Marta</a>
           <a className="button secondary" href="https://www.linkedin.com/in/marta-s-revops/">Connect on LinkedIn</a>
         </div>
       </section>
