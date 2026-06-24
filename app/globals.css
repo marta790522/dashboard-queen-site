@@ -89,3 +89,9 @@ p { color: var(--muted); line-height: 1.65; font-size: 17px; }
   color: var(--pink-dark);
   font-size: 18px;
 } 
+.testimonialCard span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 14px;
+}
