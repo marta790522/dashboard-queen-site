@@ -169,7 +169,8 @@ export default function Home() {
         "Marta consistently delivered Salesforce solutions that improved
         visibility and operational efficiency."
       </p>
-      <strong>Sales Leader</strong>
+      <strong>Brent Frazier</strong>
+<span>Director of Sales Operations</span>
     </div>
 
     <div className="testimonialCard">
@@ -177,7 +178,8 @@ export default function Home() {
         "She quickly understands business requirements and translates them
         into practical solutions."
       </p>
-      <strong>Operations Executive</strong>
+      <strong>Matt Hadreas</strong>
+<span>RevOps & GTM Leader</span>
     </div>
 
     <div className="testimonialCard">
@@ -185,7 +187,8 @@ export default function Home() {
         "One of the strongest Salesforce and RevOps professionals I've
         worked with."
       </p>
-      <strong>Revenue Operations Leader</strong>
+      <strong>Matt Hadreas
+RevOps & GTM Leader</strong>
     </div>
 
   </div>
