@@ -100,23 +100,14 @@ export default function Home() {
   src="/dashboard-queen-hero.png"
   alt="Marta Szymanska - Dashboard Queen"
   style={{
-  width: "112%",
-  marginLeft: "-6%",
-  marginTop: "-4%",
+  width: "125%",
+marginLeft: "-12%",
+marginTop: "-6%",
   borderRadius: "24px",
   display: "block"
 }}
 />
- <div style={{
-  padding: "20px",
-  fontSize: "18px",
-  lineHeight: "1.8"
-}}
-   >
-  <div>✓ 10+ Years Salesforce & RevOps</div>
-  <div>✓ +30% RFP Win Rate Improvement</div>
-  <div>✓ +50% CSM Adoption Increase</div>
-</div>
+            
         </div>
       </section>
 
