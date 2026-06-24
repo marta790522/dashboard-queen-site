@@ -95,21 +95,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="queenCard">
-            <img
+<div className="queenCard">
+<img
   src="/dashboard-queen-hero.png"
   alt="Marta Szymanska - Dashboard Queen"
   style={{
-  width: "125%",
-marginLeft: "-12%",
-marginTop: "-6%",
-  borderRadius: "24px",
-  display: "block"
-}}
+    width: "125%",
+    marginLeft: "-12%",
+    marginTop: "-6%",
+    borderRadius: "24px",
+    display: "block"
+  }}
 />
-            
-        </div>
-      </section>
+ </div>
+</div>
+ </section>
 
       <section className="stats">
         {stats.map(([value, label]) => (
