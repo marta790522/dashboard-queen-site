@@ -91,7 +91,7 @@ p { color: var(--muted); line-height: 1.65; font-size: 17px; }
 } 
 .testimonialCard span {
   display: block;
-  margin-top: 4px;
+  margin-top: 6px;
   color: var(--muted);
   font-size: 14px;
 }
