@@ -166,28 +166,25 @@ export default function Home() {
 
     <div className="testimonialCard">
       <p>
-        "Marta consistently delivered Salesforce solutions that improved
-        visibility and operational efficiency."
-      </p>
-      <strong>Brent Frazier</strong>
+  "Her knowledge of Salesforce, data management, and sales enablement has been a tremendous value to our company. Marta is always ready to help and consistently delivers with a smile."
+</p>
+<strong>Brent Frazier</strong>
 <span>Director of Sales Operations</span>
     </div>
 
     <div className="testimonialCard">
       <p>
-        "She quickly understands business requirements and translates them
-        into practical solutions."
-      </p>
-      <strong>Ashish Nagar</strong>
-<span>Founder & CEO</span>
+  "Marta is a high-energy Salesforce wizard. In a short period of time, she transformed our sales reporting and built great relationships across sales and marketing teams."
+</p>
+<strong>Ashish Nagar</strong>
+<span>Founder & CEO, Level AI</span>
     </div>
 
     <div className="testimonialCard">
-      <p>
-        "One of the strongest Salesforce and RevOps professionals I've
-        worked with."
-      </p>
-      <strong>Matt Hadreas</strong>
+     <p>
+  "Marta consistently delivers high-quality work on time. She brings professionalism, enthusiasm, and drive to every project."
+</p>
+<strong>Matt Hadreas</strong>
 <span>RevOps & GTM Leader</span>
     </div>
 
