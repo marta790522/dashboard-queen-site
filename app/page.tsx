@@ -203,7 +203,7 @@ export default function Home() {
       <section className="section split" id="about">
         <div>
           <p className="eyebrow">Meet Marta</p>
-          <h2>Salesforce Administrator. RevOps partner. Dashboard Queen.</h2>
+          <h2>Salesforce Administrator. Revenue Operations Partner. Dashboard Queen.</h2>
 <p>
 Most companies don't need more Salesforce.
 </p>
