@@ -255,11 +255,12 @@ My goal is simple: build systems that people actually want to use and that leade
       </section>
 
       <section className="contact" id="contact">
-        <p className="eyebrow">Ready?</p>
-        <h2>Book a Free Salesforce Review</h2>
-        <p>Need help with Salesforce administration, automation, reporting, or RevOps process design?</p>
+        <p className="eyebrow">NOT SURE WHAT'S BROKEN?</p>
+        <h2>Let's find it together.</h2>
+        <p>Free Salesforce & RevOps assessment.
+You'll leave with actionable recommendations you can implement immediately.</p>
         <div className="contactActions">
-          <a className="button primary" href="mailto:marta@fancymissy.com">Email Marta</a>
+          <a className="button primary" href="mailto:marta@fancymissy.com">Book a Free Assessment</a>
           <a className="button secondary" href="https://www.linkedin.com/in/marta-s-revops/">Connect on LinkedIn</a>
         </div>
       </section>
