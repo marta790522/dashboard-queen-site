@@ -72,9 +72,6 @@ export default function Home() {
   <Crown size={24} />
   <div>
     <div>Dashboard Queen</div>
-    <div style={{ fontSize: '12px', opacity: '0.7' }}>
-      by Fancy Missy
-    </div>
   </div>
 </div>
           <div className="navLinks">
@@ -87,8 +84,8 @@ export default function Home() {
 
         <div className="heroGrid">
           <div>
-            <p className="eyebrow"><Sparkles size={16}/> Dashboard Queen by Fancy Missy</p>
-            <h1>Your Salesforce shouldn’t require a detective.</h1>
+            <p className="eyebrow"><Sparkles size={16}/> Salesforce & RevOps Consulting</p>
+            <h1>Too many CRMs create work instead of supporting it.</h1>
             <p className="heroText">
               I help growing companies clean up Salesforce, automate manual processes, improve reporting, and build CRM systems that people actually use.
             </p>
