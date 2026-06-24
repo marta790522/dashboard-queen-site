@@ -103,10 +103,12 @@ export default function Home() {
   src="/dashboard-queen-hero.png"
   alt="Marta Szymanska - Dashboard Queen"
   style={{
-    width: "100%",
-    borderRadius: "24px",
-    display: "block"
-  }}
+  width: "112%",
+  marginLeft: "-6%",
+  marginTop: "-4%",
+  borderRadius: "24px",
+  display: "block"
+}}
 />
             <p className="quote">“Technology should make work easier. If your team needs three spreadsheets and two meetings to understand Salesforce, the system isn’t working.”</p>
           </div>
