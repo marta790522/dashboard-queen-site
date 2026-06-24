@@ -101,8 +101,8 @@ export default function Home() {
   alt="Marta Szymanska - Dashboard Queen"
   style={{
     width: "112%",
-    marginLeft: "-5%",
-    marginTop: "-4%",
+    marginLeft: "-2%",
+    marginTop: "-0%",
     borderRadius: "24px",
     display: "block"
   }}
