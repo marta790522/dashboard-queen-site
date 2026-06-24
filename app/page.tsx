@@ -245,11 +245,11 @@ My goal is simple: build systems that people actually want to use and that leade
       <section className="section process">
         <div className="sectionHeader">
           <p className="eyebrow">How it works</p>
-          <h2>Clean process. Clear priorities. Useful system.</h2>
+          <h2>Better process. Better data. Better decisions.</h2>
         </div>
         <div className="steps">
           <div><Layers/><h3>Assess</h3><p>Review your Salesforce setup, business processes, reporting, and user adoption to identify what is slowing the team down.</p></div>
-          <div><RefreshCw/><h3>Optimize</h3><p>CSimplify processes, improve automation, and remove friction that prevents adoption.</p></div>
+          <div><RefreshCw/><h3>Optimize</h3><p>Simplify processes, improve automation, and remove friction that prevents adoption.</p></div>
           <div><BarChart3/><h3>Measure</h3><p>Build dashboards that help leaders understand performance and make better decisions.</p></div>
         </div>
       </section>
