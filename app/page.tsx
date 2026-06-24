@@ -156,7 +156,50 @@ export default function Home() {
           ))}
         </div>
       </section>
+<section className="section" id="recommendations">
+  <div className="sectionHeader">
+    <p className="eyebrow">Recommendations</p>
+    <h2>What people say about working with me</h2>
+  </div>
 
+  <div className="testimonialGrid">
+
+    <div className="testimonialCard">
+      <p>
+        "Marta consistently delivered Salesforce solutions that improved
+        visibility and operational efficiency."
+      </p>
+      <strong>Sales Leader</strong>
+    </div>
+
+    <div className="testimonialCard">
+      <p>
+        "She quickly understands business requirements and translates them
+        into practical solutions."
+      </p>
+      <strong>Operations Executive</strong>
+    </div>
+
+    <div className="testimonialCard">
+      <p>
+        "One of the strongest Salesforce and RevOps professionals I've
+        worked with."
+      </p>
+      <strong>Revenue Operations Leader</strong>
+    </div>
+
+  </div>
+
+  <div style={{ textAlign: "center", marginTop: "40px" }}>
+    <a
+      className="button primary"
+      href="https://www.linkedin.com/in/marta-s-revops"
+      target="_blank"
+    >
+      View All LinkedIn Recommendations
+    </a>
+  </div>
+</section>
       <section className="section split" id="about">
         <div>
           <p className="eyebrow">Meet Marta</p>
