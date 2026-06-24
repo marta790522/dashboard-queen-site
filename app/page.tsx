@@ -100,9 +100,9 @@ export default function Home() {
   src="/dashboard-queen-hero.png"
   alt="Marta Szymanska - Dashboard Queen"
   style={{
-    width: "112%",
-    marginLeft: "-2%",
-    marginTop: "-0%",
+    width: "125%",
+    marginLeft: "-6%",
+    marginTop: "-6%",
     borderRadius: "24px",
     display: "block"
   }}
