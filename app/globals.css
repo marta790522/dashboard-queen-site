@@ -33,7 +33,7 @@ p { color: var(--muted); line-height: 1.65; font-size: 17px; }
 .button:hover { transform: translateY(-2px); }
 .primary { background: var(--pink-dark); color: white; box-shadow: 0 16px 38px rgba(217,46,131,.28); }
 .secondary { background: rgba(255,255,255,.72); border-color: var(--line); color: var(--ink); }
-.queenCard { background: rgba(255,255,255,.72); border: 1px solid rgba(255,255,255,.78); border-radius: 36px; padding: 28px; box-shadow: 0 28px 90px rgba(74, 24, 53, .16); transform: rotate(1.5deg); }
+.queenCard { background: rgba(255,255,255,.72); border: 1px solid rgba(255,255,255,.78); border-radius: 36px; padding: 20px 20px 10px 20px; box-shadow: 0 28px 90px rgba(74, 24, 53, .16); transform: rotate(1.5deg); }
 .avatarPlaceholder { min-height: 360px; border-radius: 28px; background: linear-gradient(135deg, #f8b8d8, #fff2b5); display: grid; place-items: center; text-align: center; color: var(--pink-dark); font-weight: 950; font-size: 22px; }
 .avatarPlaceholder span { display: block; max-width: 210px; }
 .quote { margin: 24px 0 0; color: #493240; font-weight: 700; }
