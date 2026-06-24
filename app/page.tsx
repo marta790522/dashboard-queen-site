@@ -169,7 +169,7 @@ export default function Home() {
   "Her knowledge of Salesforce, data management, and sales enablement has been a tremendous value to our company. Marta is always ready to help and consistently delivers with a smile."
 </p>
 <strong>Brent Frazier</strong>
-<span>Director of Sales Operations</span>
+<span>Director of Sales Operations, RES</span>
     </div>
 
     <div className="testimonialCard">
@@ -182,10 +182,10 @@ export default function Home() {
 
     <div className="testimonialCard">
      <p>
-  "Marta consistently delivers high-quality work on time. She brings professionalism, enthusiasm, and drive to every project."
+  "Marta consistently delivers high-quality work on time. She brings professionalism, enthusiasm, and drive to every project. She is a fantastic team member and a pleasure to work with."
 </p>
 <strong>Matt Hadreas</strong>
-<span>RevOps & GTM Leader</span>
+<span>RevOps & GTM Leader, Tempered.io</span>
     </div>
 
   </div>
