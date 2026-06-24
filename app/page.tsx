@@ -107,13 +107,12 @@ export default function Home() {
   display: "block"
 }}
 />
-            <div
-  style={{
-    padding: "20px",
-    fontSize: "18px",
-    lineHeight: "1.8"
-  }}
->
+ <div style={{
+  padding: "20px",
+  fontSize: "18px",
+  lineHeight: "1.8"
+}}
+   >
   <div>✓ 10+ Years Salesforce & RevOps</div>
   <div>✓ +30% RFP Win Rate Improvement</div>
   <div>✓ +50% CSM Adoption Increase</div>
