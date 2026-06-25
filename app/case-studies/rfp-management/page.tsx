@@ -38,7 +38,7 @@ export default function RFPCaseStudy() {
 
         <div style={comicFrame}>
           <img
-            src="/case-studies/RFP Comic.png"
+            src="/case-studies/rfp-comic.png"
             alt="Dashboard Queen RFP Project comic case study"
             style={comicImage}
           />
