@@ -30,10 +30,26 @@ export default function RFPCaseStudy() {
       </section>
 
       <section style={sectionStyle}>
+        <p style={eyebrow}>Project Story</p>
+
+        <h2 style={sectionTitle}>
+          From spreadsheet chaos to a Salesforce success story.
+        </h2>
+
+        <div style={comicFrame}>
+          <img
+            src="/case-studies/RFP Comic.png"
+            alt="Dashboard Queen RFP Project comic case study"
+            style={comicImage}
+          />
+        </div>
+      </section>
+
+      <section style={sectionStyle}>
         <p style={eyebrow}>STAR Case Study</p>
 
         <h2 style={sectionTitle}>
-          From spreadsheet chaos to a measurable Salesforce process.
+          A practical rebuild of an RFP process that was slowing the team down.
         </h2>
 
         <div style={starGrid}>
@@ -117,9 +133,19 @@ export default function RFPCaseStudy() {
           broken and design a better way forward.
         </p>
 
-        <a href="mailto:marta@fancymissy.com" style={ctaButton}>
-          Book a Free Assessment
-        </a>
+        <div style={ctaButtons}>
+          <a href="mailto:marta@fancymissy.com" style={ctaButton}>
+            Book a Free Assessment
+          </a>
+
+          <a
+            href="/RFP success in comic action.pdf"
+            style={secondaryButton}
+            target="_blank"
+          >
+            Download PDF
+          </a>
+        </div>
       </section>
     </main>
   );
@@ -191,6 +217,19 @@ const sectionTitle = {
   lineHeight: "1",
   maxWidth: "900px",
   margin: "0 0 34px",
+};
+
+const comicFrame = {
+  background: "white",
+  borderRadius: "32px",
+  padding: "18px",
+  boxShadow: "0 24px 70px rgba(74, 24, 53, .16)",
+};
+
+const comicImage = {
+  width: "100%",
+  display: "block",
+  borderRadius: "22px",
 };
 
 const starGrid = {
@@ -283,6 +322,13 @@ const ctaText = {
   lineHeight: "1.6",
 };
 
+const ctaButtons = {
+  display: "flex",
+  gap: "14px",
+  justifyContent: "center",
+  flexWrap: "wrap" as const,
+};
+
 const ctaButton = {
   display: "inline-block",
   background: "#d92e83",
@@ -291,4 +337,15 @@ const ctaButton = {
   borderRadius: "999px",
   fontWeight: 900,
   textDecoration: "none",
+};
+
+const secondaryButton = {
+  display: "inline-block",
+  background: "transparent",
+  color: "white",
+  padding: "16px 28px",
+  borderRadius: "999px",
+  fontWeight: 900,
+  textDecoration: "none",
+  border: "1px solid rgba(255,255,255,.45)",
 };
