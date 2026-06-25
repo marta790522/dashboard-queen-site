@@ -51,9 +51,36 @@ p { color: var(--muted); line-height: 1.65; font-size: 17px; }
 .dark { max-width: none; background: var(--dark); color: white; }
 .dark .sectionHeader, .dark .cards { max-width: 1180px; margin-left: auto; margin-right: auto; }
 .dark p { color: #d8c8d2; }
-.projectCard { background: rgba(255,255,255,.07); border-color: rgba(255,255,255,.12); box-shadow: none; }
-.projectCard span { display: inline-flex; color: #ffd36e; font-weight: 950; margin-bottom: 18px; }
-.projectCard h3 { color: white; }
+.projectCard {
+  background: rgba(255,255,255,.07);
+  border-color: rgba(255,255,255,.12);
+  box-shadow: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease, background .25s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-8px);
+  background: rgba(255,255,255,.10);
+  border-color: rgba(255,255,255,.25);
+  box-shadow: 0 24px 60px rgba(0,0,0,.22);
+}
+
+.projectCard span {
+  display: inline-flex;
+  color: #ffd36e;
+  font-weight: 950;
+  margin-bottom: 18px;
+}
+
+.projectCard h3 {
+  color: white;
+}
+
+.projectCard p {
+  color: #d8c8d2;
+}
 .split { display: grid; grid-template-columns: 1.25fr .75fr; gap: 42px; align-items: center; }
 .aboutBox { background: var(--cream); }
 .process { padding-top: 30px; }
