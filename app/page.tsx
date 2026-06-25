@@ -148,12 +148,34 @@ export default function Home() {
         </div>
         <div className="cards three">
           {projects.map((project) => (
-            <article className="projectCard" key={project.title}>
-              <span>{project.metric}</span>
-              <h3>{project.title}</h3>
-              <p>{project.text}</p>
-            </article>
-          ))}
+  <a
+    key={project.title}
+    href={
+      project.title === "RFP Management System"
+        ? "/case-studies/rfp-management"
+        : "#"
+    }
+    style={{ textDecoration: "none" }}
+  >
+    <article className="projectCard">
+      <span>{project.metric}</span>
+      <h3>{project.title}</h3>
+      <p>{project.text}</p>
+
+      {project.title === "RFP Management System" && (
+        <p
+          style={{
+            marginTop: "18px",
+            color: "#ffcf57",
+            fontWeight: 800,
+          }}
+        >
+          View Case Study →
+        </p>
+      )}
+    </article>
+  </a>
+))}
         </div>
       </section>
 <section className="section" id="recommendations">
