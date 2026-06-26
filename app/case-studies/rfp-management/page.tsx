@@ -143,6 +143,7 @@ export default function RFPCaseStudy() {
 </main>
 );
 }
+
 const heroSection = {
   maxWidth: "1180px",
   margin: "0 auto",
