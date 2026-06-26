@@ -140,7 +140,28 @@ export default function RFPCaseStudy() {
 >
   Book a Free Assessment
 </a>
+</section>
+        <section style={sectionStyle}>
+  <p style={eyebrow}>RELATED CASE STUDY</p>
 
+  <h2 style={sectionTitle}>
+    See how I built an RFP Management Process.
+  </h2>
+
+  <p style={cardText}>
+    Renewals protect existing revenue.
+    RFP Management helps generate new revenue.
+    See how I built a Salesforce process for proposal tracking,
+    ownership, deadlines, and reporting.
+  </p>
+
+  <a
+    href="/case-studies/rfp-management"
+    style={backButton}
+  >
+    View RFP Case Study →
+  </a>
+</section>
           <a
             href="/RFP success in comic action.pdf"
             style={secondaryButton}
