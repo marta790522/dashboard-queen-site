@@ -36,7 +36,34 @@ export default function RenewalAutomationCaseStudy() {
       </section>
 
       {/* PROJECT STORY */}
+{/* PROJECT STORY */}
 
+<section style={sectionStyle}>
+  <p style={eyebrow}>Project Story</p>
+
+  <h2 style={sectionTitle}>
+    From manual tracking to predictable renewals.
+  </h2>
+
+  <div
+    style={{
+      background: "white",
+      borderRadius: "32px",
+      padding: "20px",
+      boxShadow: "0 18px 50px rgba(74,24,53,.10)",
+    }}
+  >
+    <img
+      src="/case-studies/renewal-engine-comic.png"
+      alt="Renewal Engine comic case study"
+      style={{
+        width: "100%",
+        borderRadius: "20px",
+        display: "block",
+      }}
+    />
+  </div>
+</section>
       <section style={sectionStyle}>
         <p style={eyebrow}>Project Story</p>
 
