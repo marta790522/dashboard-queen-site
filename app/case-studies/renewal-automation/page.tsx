@@ -168,9 +168,12 @@ export default function RenewalAutomationCaseStudy() {
           reminders, or tribal knowledge, there is a better way.
         </p>
 
-        <a href="mailto:marta@fancymissy.com" style={ctaButton}>
-          Book a Free Assessment
-        </a>
+        <a
+  href="mailto:marta@fancymissy.com?subject=Free%20Salesforce%20Assessment"
+  style={ctaButton}
+>
+  Book a Free Assessment
+</a>
       </section>
     </main>
   );
