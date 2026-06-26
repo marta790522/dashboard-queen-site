@@ -9,9 +9,7 @@ export default function RenewalAutomationCaseStudy() {
 
   <p style={eyebrow}>👑 Dashboard Queen Case Study</p>
 
-  <h1 style={heroTitle}>
-    The Renewal Engine
-        <h1 style={heroTitle}>The Renewal Engine</h1>
+  <h1 style={heroTitle}>The Renewal Engine</h1>
 
         <p style={heroText}>
           How Salesforce stopped contracts from slipping through the cracks and
