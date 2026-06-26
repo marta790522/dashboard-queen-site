@@ -141,17 +141,7 @@ export default function RFPCaseStudy() {
   Book a Free Assessment
 </a>
 </section>
-       
-          <a
-            href="/RFP success in comic action.pdf"
-            style={secondaryButton}
-            target="_blank"
-          >
-            Download PDF
-          </a>
-        </div>
-      </section>
-    </main>
+</main>
   );
 }
 
