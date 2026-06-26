@@ -37,14 +37,14 @@ export default function RenewalAutomationCaseStudy() {
       </section>
 
       <section style={sectionStyle}>
-        <div style={comicContainer}>
-          <img
-            src="/case-studies/renewal-engine-comic.png"
-            alt="Renewal Engine comic case study"
-            style={comicImage}
-          />
-        </div>
-      </section>
+  <div style={comicContainer}>
+    <img
+      src="/case-studies/renewal-engine-comic.png"
+      alt="Renewal Engine comic case study"
+      style={comicImage}
+    />
+  </div>
+</section>
 
       <section style={sectionStyle}>
         <p style={eyebrow}>How It Worked</p>
