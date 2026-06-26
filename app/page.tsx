@@ -147,35 +147,39 @@ export default function Home() {
           <p>Not just fields, flows, and dashboards. These are operational systems built to solve specific problems.</p>
         </div>
         <div className="cards three">
-          {projects.map((project) => (
-  <a
-    key={project.title}
-    href={
-      project.title === "RFP Management System"
-        ? "/case-studies/rfp-management"
-        : "#"
-    }
-    style={{ textDecoration: "none" }}
-  >
-    <article className="projectCard">
-      <span>{project.metric}</span>
-      <h3>{project.title}</h3>
-      <p>{project.text}</p>
+          {projects.map((project) => {
+  const caseStudyLinks: Record<string, string> = {
+    "RFP Management System": "/case-studies/rfp-management",
+    "Renewal Automation": "/case-studies/renewal-automation",
+  };
 
-      {project.title === "RFP Management System" && (
-        <p
-          style={{
-            marginTop: "18px",
-            color: "#ffcf57",
-            fontWeight: 800,
-          }}
-        >
-          View Case Study →
-        </p>
-      )}
-    </article>
-  </a>
-))}
+  const href = caseStudyLinks[project.title];
+
+  return (
+    <a
+      key={project.title}
+      href={href || "#"}
+      style={{ textDecoration: "none" }}
+    >
+      <article className="projectCard">
+        <span>{project.metric}</span>
+
+        <h3>
+          {project.title}
+          {href && " 👑"}
+        </h3>
+
+        <p>{project.text}</p>
+
+        {href && (
+          <p style={{ marginTop: "18px", color: "#d92e83", fontWeight: 800 }}>
+            View Case Study →
+          </p>
+        )}
+      </article>
+    </a>
+  );
+})}
         </div>
       </section>
 <section className="section" id="recommendations">
