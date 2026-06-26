@@ -1,9 +1,16 @@
 export default function RenewalAutomationCaseStudy() {
   return (
     <main style={{ background: "#fff8f6", color: "#23151e" }}>
-      <section style={heroSection}>
-        <p style={eyebrow}>👑 Dashboard Queen Case Study</p>
+     <section style={heroSection}>
 
+  <a href="/" style={backButton}>
+    ← Back to Portfolio
+  </a>
+
+  <p style={eyebrow}>👑 Dashboard Queen Case Study</p>
+
+  <h1 style={heroTitle}>
+    The Renewal Engine
         <h1 style={heroTitle}>The Renewal Engine</h1>
 
         <p style={heroText}>
@@ -391,4 +398,17 @@ const ctaButton = {
   borderRadius: "999px",
   fontWeight: 900,
   textDecoration: "none",
+};
+const backButton = {
+  display: "inline-flex",
+  alignItems: "center",
+  padding: "10px 16px",
+  borderRadius: "999px",
+  background: "white",
+  border: "1px solid rgba(35,21,30,.12)",
+  color: "#23151e",
+  fontWeight: 700,
+  textDecoration: "none",
+  marginBottom: "24px",
+  transition: "all .2s ease",
 };
