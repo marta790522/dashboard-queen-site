@@ -71,15 +71,30 @@ export default function RenewalAutomationCaseStudy() {
           From manual tracking to predictable renewals.
         </h2>
 
-        <div style={comicPlaceholder}>
-          Renewal Comic Coming Here
-        </div>
+       <div
+  style={{
+    background: "white",
+    borderRadius: "32px",
+    padding: "20px",
+    boxShadow: "0 18px 50px rgba(74,24,53,.10)",
+  }}
+>
+  <img
+    src="/case-studies/renewal-engine-comic.png"
+    alt="Renewal Engine comic case study"
+    style={{
+      width: "100%",
+      borderRadius: "20px",
+      display: "block",
+    }}
+  />
+</div>
       </section>
 
       {/* STAR */}
 
       <section style={sectionStyle}>
-        <p style={eyebrow}>STAR Case Study</p>
+        <p style={eyebrow}>Case Study</p>
 
         <h2 style={sectionTitle}>
           A practical rebuild of a renewal process that relied on spreadsheets
