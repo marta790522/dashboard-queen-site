@@ -134,9 +134,12 @@ export default function RFPCaseStudy() {
         </p>
 
         <div style={ctaButtons}>
-          <a href="mailto:marta@fancymissy.com" style={ctaButton}>
-            Book a Free Assessment
-          </a>
+          <a
+  href="mailto:marta@fancymissy.com?subject=Free%20Salesforce%20Assessment"
+  style={ctaButton}
+>
+  Book a Free Assessment
+</a>
 
           <a
             href="/RFP success in comic action.pdf"
