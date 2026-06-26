@@ -121,27 +121,28 @@ export default function RFPCaseStudy() {
         </p>
       </section>
 
-      <section style={ctaSection}>
-        <p style={ctaEyebrow}>Need something similar?</p>
+     <section style={ctaSection}>
+  <p style={ctaEyebrow}>Need something similar?</p>
 
-        <h2 style={ctaTitle}>
-          Let’s build a Salesforce process your team actually uses.
-        </h2>
+  <h2 style={ctaTitle}>
+    Let’s build a Salesforce process your team actually uses.
+  </h2>
 
-        <p style={ctaText}>
-          If your CRM creates more work than clarity, I can help identify what is
-          broken and design a better way forward.
-        </p>
+  <p style={ctaText}>
+    If your CRM creates more work than clarity, I can help identify what is
+    broken and design a better way forward.
+  </p>
 
-        <div style={ctaButtons}>
-          <a
-  href="mailto:marta@fancymissy.com?subject=Free%20Salesforce%20Assessment"
-  style={ctaButton}
->
-  Book a Free Assessment
-</a>
+  <a
+    href="mailto:marta@fancymissy.com?subject=Free%20Salesforce%20Assessment"
+    style={ctaButton}
+  >
+    Book a Free Assessment
+  </a>
+</section>
 </main>
-  );
+);
+}
 const heroSection = {
   maxWidth: "1180px",
   margin: "0 auto",
