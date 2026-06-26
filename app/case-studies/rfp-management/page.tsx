@@ -140,7 +140,6 @@ export default function RFPCaseStudy() {
 >
   Book a Free Assessment
 </a>
-</section>
 </main>
   );
 }
