@@ -1,7 +1,11 @@
 export default function RFPCaseStudy() {
   return (
     <main style={{ background: "#fff8f6", color: "#23151e" }}>
-      <section style={heroSection}>
+  <section style={heroSection}>
+
+    <a href="/" style={backButton}>
+      ← Back to Portfolio
+    </a>
         <p style={eyebrow}>👑 Dashboard Queen Case Study</p>
 
         <h1 style={heroTitle}>The RFP Project</h1>
@@ -143,6 +147,13 @@ export default function RFPCaseStudy() {
 </main>
 );
 }
+const backButton = {
+  display: "inline-block",
+  marginBottom: "24px",
+  color: "#e91e63",
+  textDecoration: "none",
+  fontWeight: 600,
+};
 const heroSection = {
   maxWidth: "1180px",
   margin: "0 auto",
