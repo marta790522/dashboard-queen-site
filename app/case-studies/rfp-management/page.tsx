@@ -148,11 +148,17 @@ export default function RFPCaseStudy() {
 );
 }
 const backButton = {
-  display: "inline-block",
-  marginBottom: "24px",
-  color: "#e91e63",
+  display: "inline-flex",
+  alignItems: "center",
+  gap: "8px",
+  marginBottom: "28px",
+  padding: "10px 18px",
+  border: "1px solid #e5dadd",
+  borderRadius: "999px",
+  background: "#ffffff",
+  color: "#23151e",
   textDecoration: "none",
-  fontWeight: 600,
+  fontWeight: 700,
 };
 const heroSection = {
   maxWidth: "1180px",
