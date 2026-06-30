@@ -144,6 +144,29 @@ export default function RFPCaseStudy() {
     Book a Free Assessment
   </a>
 </section>
+ <section style={sectionStyle}>
+  <p style={eyebrow}>Related Case Study</p>
+
+  <div style={cardStyle}>
+    <h3 style={cardTitle}>The Renewal Engine</h3>
+
+    <p style={cardText}>
+      How Salesforce stopped contracts from slipping through the cracks
+      and turned renewals into a predictable revenue process.
+    </p>
+
+    <a
+      href="/case-studies/renewal-automation"
+      style={{
+        color: "#d92e83",
+        fontWeight: 700,
+        textDecoration: "none",
+      }}
+    >
+      View Case Study →
+    </a>
+  </div>
+</section>     
 </main>
 );
 }
