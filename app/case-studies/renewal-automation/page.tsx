@@ -180,6 +180,30 @@ export default function RenewalAutomationCaseStudy() {
   Book a Free Assessment
 </a>
       </section>
+      <section style={sectionStyle}>
+  <p style={eyebrow}>Related Case Study</p>
+
+  <div style={cardStyle}>
+    <h3 style={cardTitle}>The RFP Project</h3>
+
+    <p style={cardText}>
+      How a messy spreadsheet-based RFP process became a scalable
+      Salesforce system with clear ownership, visibility, and improved
+      win rates.
+    </p>
+
+    <a
+      href="/case-studies/rfp-management"
+      style={{
+        color: "#d92e83",
+        fontWeight: 700,
+        textDecoration: "none",
+      }}
+    >
+      View Case Study →
+    </a>
+  </div>
+</section>
     </main>
   );
 }
