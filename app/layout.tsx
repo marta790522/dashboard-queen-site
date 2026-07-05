@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Dashboard Queen | Salesforce & RevOps Consulting',
   description: 'Salesforce Administration, Revenue Operations, Process Automation, Reporting and Dashboards by Marta Szymanska.',
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
