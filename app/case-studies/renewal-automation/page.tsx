@@ -1,3 +1,10 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Renewal Automation in Salesforce',
+  description:
+    'Automated renewal opportunity creation, CSM ownership assignment, product copying, notifications, and 180-day visibility into upcoming renewals.',
+};
 export default function RenewalAutomationCaseStudy() {
   return (
     <main style={{ background: "#fff8f6", color: "#23151e" }}>
