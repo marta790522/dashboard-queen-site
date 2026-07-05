@@ -1,3 +1,10 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'RFP Management in Salesforce',
+  description:
+    'How I moved RFP tracking from spreadsheets into Salesforce, improving ownership, reporting, executive visibility, and win rates.',
+};
 export default function RFPCaseStudy() {
   return (
     <main style={{ background: "#fff8f6", color: "#23151e" }}>
