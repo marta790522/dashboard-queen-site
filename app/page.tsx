@@ -151,6 +151,7 @@ export default function Home() {
   const caseStudyLinks: Record<string, string> = {
     "RFP Management System": "/case-studies/rfp-management",
     "Renewal Automation": "/case-studies/renewal-automation",
+    "Deal Registration": "/case-studies/deal-registration",
   };
 
   const href = caseStudyLinks[project.title];
