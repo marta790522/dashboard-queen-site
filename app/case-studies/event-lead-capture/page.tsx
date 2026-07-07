@@ -4,6 +4,12 @@ export const metadata: Metadata = {
   title: 'Event Lead Capture in Salesforce | Dashboard Queen',
   description:
     'Salesforce Event Lead Capture case study: tablet-based lead collection, real-time Salesforce lead creation, improved event ROI, and lower event technology costs.',
+  openGraph: {
+    title: 'Event Lead Capture in Salesforce',
+    description:
+      'Salesforce-native event lead capture process using tablets instead of expensive badge scanners.',
+    images: ['/case-studies/event-lead-capture-case-study.png'],
+  },
 };
 
 export default function EventLeadCaptureCaseStudy() {
