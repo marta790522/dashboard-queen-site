@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Event Lead Capture in Salesforce',
+  title: 'Event Lead Capture in Salesforce | Dashboard Queen',
   description:
-    'How I built a Salesforce-native event lead capture process using tablets instead of expensive badge scanners.',
+    'Salesforce Event Lead Capture case study: tablet-based lead collection, real-time Salesforce lead creation, improved event ROI, and lower event technology costs.',
 };
 
 export default function EventLeadCaptureCaseStudy() {
