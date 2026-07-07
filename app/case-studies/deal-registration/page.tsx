@@ -41,19 +41,27 @@ export default function DealRegistrationCaseStudy() {
         </div>
       </section>
 
-      <section style={sectionStyle}>
-        <p style={eyebrow}>Project Story</p>
+     <section style={sectionStyle}>
+  <p style={eyebrow}>Project Story</p>
 
-        <h2 style={sectionTitle}>
-          From a simple form to a real partner sales process.
-        </h2>
+  <h2 style={sectionTitle}>
+    From a simple form to a real partner sales process.
+  </h2>
 
-        <p style={bodyText}>
-          Deal Registration is often treated like a website form. In reality, it is a business
-          process that connects partner experience, sales ownership, approval governance,
-          Opportunity creation, and reporting.
-        </p>
-      </section>
+  <p style={bodyText}>
+    Deal Registration is often treated like a website form. In reality, it is a business
+    process that connects partner experience, sales ownership, approval governance,
+    Opportunity creation, and reporting.
+  </p>
+
+  <div style={comicContainer}>
+    <img
+      src="/case-studies/partner-deal-registration-case-study.png"
+      alt="Partner Deal Registration Salesforce process infographic"
+      style={comicImage}
+    />
+  </div>
+</section>
 
       <section style={sectionStyle}>
         <p style={eyebrow}>STAR Case Study</p>
