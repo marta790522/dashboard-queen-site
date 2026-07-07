@@ -136,3 +136,229 @@ export default function DealRegistrationCaseStudy() {
     </main>
   );
 }
+const heroSection = {
+  maxWidth: "1180px",
+  margin: "0 auto",
+  padding: "80px 24px 44px",
+};
+
+const eyebrow = {
+  color: "#d92e83",
+  fontWeight: 900,
+  textTransform: "uppercase" as const,
+  letterSpacing: ".12em",
+  marginBottom: "14px",
+};
+
+const heroTitle = {
+  fontSize: "clamp(58px, 8vw, 92px)",
+  lineHeight: ".9",
+  margin: "0 0 22px",
+};
+
+const heroText = {
+  fontSize: "24px",
+  maxWidth: "780px",
+  color: "#725c68",
+  lineHeight: "1.5",
+  marginBottom: "40px",
+};
+
+const heroStats = {
+  display: "grid",
+  gridTemplateColumns: "repeat(3, 1fr)",
+  gap: "20px",
+};
+
+const statBox = {
+  background: "white",
+  padding: "24px",
+  borderRadius: "24px",
+  boxShadow: "0 14px 44px rgba(74,24,53,.08)",
+};
+
+const statValue = {
+  display: "block",
+  color: "#d92e83",
+  fontSize: "25px",
+  fontWeight: 900,
+  marginBottom: "6px",
+};
+
+const statLabel = {
+  color: "#725c68",
+  fontSize: "16px",
+  lineHeight: "1.45",
+};
+
+const sectionStyle = {
+  maxWidth: "1180px",
+  margin: "0 auto",
+  padding: "54px 24px",
+};
+
+const sectionTitle = {
+  fontSize: "clamp(36px, 5vw, 58px)",
+  lineHeight: "1",
+  margin: "0 0 34px",
+  maxWidth: "920px",
+};
+
+const comicContainer = {
+  background: "#ffffff",
+  borderRadius: "34px",
+  padding: "18px",
+  boxShadow: "0 18px 60px rgba(74,24,53,.10)",
+};
+
+const comicImage = {
+  width: "100%",
+  display: "block",
+  borderRadius: "20px",
+};
+
+const starGrid = {
+  display: "grid",
+  gridTemplateColumns: "repeat(2, 1fr)",
+  gap: "22px",
+};
+
+const cardStyle = {
+  background: "white",
+  padding: "30px",
+  borderRadius: "26px",
+  boxShadow: "0 18px 50px rgba(74,24,53,.08)",
+};
+
+const cardTitle = {
+  fontSize: "25px",
+  margin: "0 0 12px",
+};
+
+const cardText = {
+  color: "#725c68",
+  fontSize: "18px",
+  lineHeight: "1.65",
+  margin: 0,
+};
+
+const buildGrid = {
+  display: "grid",
+  gridTemplateColumns: "repeat(2, 1fr)",
+  gap: "22px",
+};
+
+const buildCard = {
+  background: "white",
+  padding: "30px",
+  borderRadius: "26px",
+  boxShadow: "0 18px 50px rgba(74,24,53,.08)",
+};
+
+const buildTitle = {
+  fontSize: "24px",
+  margin: "0 0 12px",
+};
+
+const buildText = {
+  color: "#725c68",
+  fontSize: "18px",
+  lineHeight: "1.6",
+  margin: 0,
+};
+
+const impactBox = {
+  background: "linear-gradient(135deg,#241222,#5a1742)",
+  color: "white",
+  borderRadius: "34px",
+  padding: "48px",
+  boxShadow: "0 28px 80px rgba(74,24,53,.22)",
+};
+
+const impactEyebrow = {
+  color: "#ffd36e",
+  fontWeight: 900,
+  textTransform: "uppercase" as const,
+  letterSpacing: ".1em",
+  marginBottom: "12px",
+};
+
+const impactTitle = {
+  fontSize: "clamp(46px, 7vw, 78px)",
+  lineHeight: "1",
+  margin: "0 0 18px",
+};
+
+const impactText = {
+  color: "#f7ddea",
+  fontSize: "22px",
+  lineHeight: "1.65",
+  maxWidth: "900px",
+};
+
+const takeawayTitle = {
+  fontSize: "clamp(38px, 5vw, 64px)",
+  lineHeight: "1",
+  margin: "0 0 24px",
+  maxWidth: "980px",
+};
+
+const bodyText = {
+  fontSize: "21px",
+  lineHeight: "1.7",
+  color: "#725c68",
+  maxWidth: "880px",
+};
+
+const ctaSection = {
+  background: "linear-gradient(135deg,#241222,#5a1742)",
+  color: "white",
+  textAlign: "center" as const,
+  padding: "90px 24px",
+};
+
+const ctaEyebrow = {
+  color: "#ffd36e",
+  fontWeight: 900,
+  textTransform: "uppercase" as const,
+  letterSpacing: ".1em",
+  marginBottom: "18px",
+};
+
+const ctaTitle = {
+  fontSize: "clamp(42px, 6vw, 72px)",
+  lineHeight: "1",
+  maxWidth: "950px",
+  margin: "0 auto 24px",
+};
+
+const ctaText = {
+  color: "#f7ddea",
+  maxWidth: "760px",
+  margin: "0 auto 34px",
+  fontSize: "21px",
+  lineHeight: "1.6",
+};
+
+const ctaButton = {
+  display: "inline-block",
+  background: "#d92e83",
+  color: "white",
+  padding: "16px 28px",
+  borderRadius: "999px",
+  fontWeight: 900,
+  textDecoration: "none",
+};
+const backButton = {
+  display: "inline-flex",
+  alignItems: "center",
+  padding: "10px 16px",
+  borderRadius: "999px",
+  background: "white",
+  border: "1px solid rgba(35,21,30,.12)",
+  color: "#23151e",
+  fontWeight: 700,
+  textDecoration: "none",
+  marginBottom: "24px",
+  transition: "all .2s ease",
+};
