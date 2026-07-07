@@ -16,7 +16,7 @@ export default function DealRegistrationCaseStudy() {
 
         <p style={eyebrow}>👑 Dashboard Queen Case Study</p>
 
-        <h1 style={heroTitle}>Deal Registration</h1>
+        <h1 style={heroTitle}>Partner Deal Registration</h1>
 
         <p style={heroText}>
           How a partner-submitted deal process became a scalable Salesforce system
@@ -99,19 +99,24 @@ export default function DealRegistrationCaseStudy() {
         </div>
       </section>
 
-      <section style={sectionStyle}>
-        <div style={impactBox}>
-          <p style={impactEyebrow}>Business Impact</p>
+     <section style={sectionStyle}>
+  <div style={impactBox}>
+    <p style={impactEyebrow}>Business Impact</p>
 
-          <h2 style={impactTitle}>Better Partner Pipeline Visibility</h2>
+    <h2 style={impactTitle}>100% Visibility Into Partner-Sourced Pipeline</h2>
 
-          <p style={impactText}>
-            A dedicated Deal Registration process helped standardize partner submissions,
-            reduce manual follow-up, improve approval visibility, and create cleaner reporting
-            on partner-generated revenue.
-          </p>
-        </div>
-      </section>
+    <p style={impactText}>
+      A dedicated Deal Registration process helped transform partner submissions
+      from isolated requests into a measurable revenue channel.
+    </p>
+
+    <p style={impactText}>
+      It improved visibility into partner-generated opportunities, reduced manual
+      follow-up, supported cleaner forecasting, and enabled partner growth through
+      better visibility into cross-sell and expansion opportunities.
+    </p>
+  </div>
+</section>
 
       <section style={ctaSection}>
         <p style={ctaEyebrow}>Salesforce Process Design</p>
