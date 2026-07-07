@@ -65,13 +65,19 @@ export default function EventLeadCaptureCaseStudy() {
           to Salesforce.
         </p>
 
-        <div style={comicContainer}>
-          <img
-            src="/case-studies/event-lead-capture-case-study.png"
-            alt="Event Lead Capture Salesforce Case Study"
-            style={comicImage}
-          />
-        </div>
+        <div
+  style={{
+    ...comicContainer,
+    maxWidth: "700px",
+    margin: "40px auto 0",
+  }}
+>
+  <img
+    src="/case-studies/event-lead-capture-case-study.png"
+    alt="Event Lead Capture Salesforce Case Study"
+    style={comicImage}
+  />
+</div>
       </section>
 
       <section style={sectionStyle}>
