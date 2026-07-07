@@ -349,6 +349,23 @@ const ctaButton = {
   fontWeight: 900,
   textDecoration: "none",
 };
+const secondaryButton = {
+  display: "inline-block",
+  background: "transparent",
+  color: "white",
+  padding: "16px 28px",
+  borderRadius: "999px",
+  fontWeight: 900,
+  textDecoration: "none",
+  border: "1px solid rgba(255,255,255,.45)",
+};
+
+const ctaButtons = {
+  display: "flex",
+  gap: "14px",
+  justifyContent: "center",
+  flexWrap: "wrap" as const,
+};
 const backButton = {
   display: "inline-flex",
   alignItems: "center",
