@@ -152,6 +152,7 @@ export default function Home() {
     "RFP Management System": "/case-studies/rfp-management",
     "Renewal Automation": "/case-studies/renewal-automation",
     "Deal Registration": "/case-studies/deal-registration",
+    "Event Lead Capture": "/case-studies/event-lead-capture",
   };
 
   const href = caseStudyLinks[project.title];
